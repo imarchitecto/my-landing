@@ -1,0 +1,92 @@
+.body {
+    @media (max-width: 767px) {
+        margin: 60px 0 0 0;
+    }
+		&__row {
+            display: flex;
+            align-items: flex-start;
+        }
+		&__image {
+            flex: 0 0 270px;
+            overflow: hidden;
+            text-align: center;
+            padding: 15px 0 0 0;
+            @media (max-width: 767px) {
+                flex: 0 0 160px;
+            }
+            &::after {
+                content: "";
+                display: block;
+                background: url("/img/about/after.png") no-repeat top -7px center ;
+                width: 270px;
+                height: 130px;
+                @media (max-width: 767px) {
+                    background: url("/img/about/after_2.png") no-repeat top -7px left 50px ;
+                }
+            } 
+            img {
+                max-width: 90%;
+                border-radius: 6%;
+                border: 4px solid #f7c292;
+                box-shadow: 2px 2px 10px black;
+            }
+        }
+		&__info {
+            flex: 1 1 auto;
+            margin: 11px 0 0 5%;
+            background: url("/img/about/fon_for_text.jpg");
+            padding: 10px 20px 0 20px;
+            border-radius: 2%;
+            @media (max-width: 767px) {
+                padding: 0px 10px 0 15px;
+            }
+            p {
+                margin: 0 0 13px 0;
+            }
+        }
+		&__title {
+            font-size: 24px;
+            margin: 0 0 21px 0;
+            color: rgb(59, 76, 230);
+            font-family: 'Gilroy-ExtraBold';
+            font-weight: 800;
+            font-size: 34px;
+            line-height: 42px;
+            text-align: left;
+            @media (max-width: 767px) {
+                font-size: 22px;
+                margin: 0 0 7px 0;
+            }
+        }
+        
+		&__text {
+            font-family: 'Gilroy-Light';
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: left;
+            color: #161515;
+        }
+}
+
+.ag {
+    display: none;
+    @media (max-width: 767px) {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 28px;
+        span:first-child {
+            color: red;
+            font-family: 'Gilroy-ExtraBold';
+            font-weight: 800;
+            font-size: 38px;
+        }
+        span:last-child {
+            color: black;
+            font-family: 'Gilroy-ExtraBold';
+            font-weight: 800;
+            font-size: 38px;
+        }
+    }
+}

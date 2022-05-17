@@ -130,6 +130,12 @@ body {
         }
     }
     &__column {
+        &:nth-child(2) {
+            align-self: flex-end; 
+            @media (max-width: 767px) {
+                align-self: flex-start;
+            }
+        }
         &_name {
             font-family: 'Gilroy-ExtraBold';
             font-weight: 800;
@@ -435,7 +441,7 @@ body {
             padding: 13px 30px;
             border-radius: 30px;
             @media (max-width: 767px) {
-                padding: 13px 96px;
+                padding: 13px 91px;
             }
         }
         &__buttom:hover {

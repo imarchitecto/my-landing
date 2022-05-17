@@ -176,6 +176,18 @@ body.lock {
   }
 }
 
+.about-top__column:nth-child(2) {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media (max-width: 767px) {
+  .about-top__column:nth-child(2) {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
 .about-top__column_name {
   font-family: 'Gilroy-ExtraBold';
   font-weight: 800;
@@ -591,7 +603,7 @@ body.lock {
 
 @media (max-width: 767px) {
   .footer__buttom {
-    padding: 13px 96px;
+    padding: 13px 91px;
   }
 }
 
