@@ -44,14 +44,14 @@
 .body__image::after {
   content: "";
   display: block;
-  background: url("/img/about/after.png") no-repeat top -7px center;
+  background: url("../img/about/after.png") no-repeat top -7px center;
   width: 270px;
   height: 130px;
 }
 
 @media (max-width: 767px) {
   .body__image::after {
-    background-image: url("/img/about/after_2.png") plushka dura;
+    background-image: url("../img/about/after_2.png") plushka dura;
     background-repeat: no-repeat;
     background-position: 90px -5px;
   }
