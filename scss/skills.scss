@@ -20,4 +20,38 @@
     }
 }
 
+.body {
+		&__column {
+            margin: 40px 0 0 0;
+        }
+		&__row {
+            display: flex;
+            margin: 0 0 50px 0;
+            box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.662);
+            padding: 12px 0 10px 10px;
+            background-color: rgb(225, 209, 209);
+        }
+		&__visual {}
+		&__item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 0 20px 0 0;
+        }
+		&__logo {
+            margin: 0 0 20px 0;
+        }
+		&__stars {}
+		&__text {
+            font-family: 'Gilroy-Light';
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 22px;
+
+        }
+}
+
+
+
+
 
