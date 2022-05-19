@@ -1,0 +1,21 @@
+.ag {
+    display: none;
+    @media (max-width: 767px) {
+        display: block;
+        position: absolute;
+        top: 61px;
+        left: 28px;
+        span:first-child {
+            color: red;
+            font-family: 'Gilroy-ExtraBold';
+            font-weight: 800;
+            font-size: 38px;
+        }
+        span:last-child {
+            color: black;
+            font-family: 'Gilroy-ExtraBold';
+            font-weight: 800;
+            font-size: 38px;
+        }
+    }
+}

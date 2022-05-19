@@ -3,7 +3,7 @@
     @media (max-width: 767px) {
         display: block;
         position: absolute;
-        top: 5px;
+        top: 58px;
         left: 28px;
         span:first-child {
             color: red;
@@ -23,6 +23,9 @@
 .body {
 		&__column {
             margin: 40px 0 0 0;
+            @media (max-width: 767px) {
+                margin: 140px 0 0 0;
+            }
         }
 		&__row {
             display: flex;
@@ -30,18 +33,42 @@
             box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.662);
             padding: 12px 0 10px 10px;
             background-color: rgb(225, 209, 209);
+            @media (max-width: 767px) {
+                flex-direction: column;
+            }
         }
-		&__visual {}
+		&__visual {
+            @media (max-width: 767px) {
+                margin: 0 auto;
+            }
+        }
 		&__item {
             display: flex;
             flex-direction: column;
             text-align: center;
             margin: 0 20px 0 0;
+            @media (max-width: 767px) {
+                margin: 0 0 20px 0;
+            }
         }
 		&__logo {
             margin: 0 0 20px 0;
+            @media (max-width: 767px) {
+                width: 90px;
+                margin: 0 0 10px 0;
+                img {
+                    max-width: 100%;
+                }
+            }
         }
-		&__stars {}
+		&__stars {
+            @media (max-width: 767px) {
+                width: 90px;
+                img {
+                    max-width: 100%; 
+                }
+            }
+        }
 		&__text {
             font-family: 'Gilroy-Light';
             font-weight: 300;
