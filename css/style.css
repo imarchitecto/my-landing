@@ -90,7 +90,7 @@ body.lock {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
-  color: #828282;
+  color: #0bb968;
   padding: 25px 45px;
   white-space: nowrap;
 }
@@ -109,7 +109,7 @@ body.lock {
   font-size: 18px;
   line-height: 22px;
   color: white;
-  background-color: #828282;
+  background-color: #0bb968;
   padding: 25px 45px;
 }
 
@@ -118,6 +118,9 @@ body.lock {
     padding: 0;
     font-size: 34px;
     line-height: 42px;
+    background-color: white;
+    color: #0bb968;
+    text-decoration: underline;
   }
 }
 
@@ -673,6 +676,14 @@ body.lock {
   .footer__litle-text {
     margin: 45px 0 90px 0;
   }
+}
+
+.footer__litle-text a {
+  color: #0bb968;
+}
+
+.footer__litle-text a:hover {
+  text-decoration: underline;
 }
 
 .person-container {

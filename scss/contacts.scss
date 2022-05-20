@@ -19,3 +19,50 @@
         }
     }
 }
+
+.content {
+}
+.body {
+    @media (max-width: 767px) {
+        margin: 140px 0 0 13px;
+    }
+		&__row {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__visual {
+        }
+		&__how {
+            margin: 50px 0 100px 0;
+            p {
+                color: red;
+                font-family: 'Gilroy-ExtraBold';
+                font-weight: 800;
+                font-size: 38px;
+            }
+            p:last-child {
+                font-size: 60px;
+            }
+            @media (max-width: 767px) {
+                p { font-size: 20px;}
+                p:last-child {
+                    font-size: 36px;
+                }
+            }
+        }   
+        &__strelka {
+            max-width: 150px;
+            @media (max-width: 767px) {
+                max-width: 100px;
+            }
+            img {
+                max-width: 100%;
+            }
+        } 
+		&__answer {
+            max-width: 350px;
+            img {
+                max-width: 100%;
+            }
+        }
+}
