@@ -171,6 +171,13 @@
   border-radius: 10px;
 }
 
+@media (max-width: 767px) {
+  #cat {
+    width: 350px;
+    height: 112.5px;
+  }
+}
+
 #zatemnenie:target {
   display: block;
 }
