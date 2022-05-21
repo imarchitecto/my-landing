@@ -166,16 +166,16 @@
   z-index: 5;
 }
 
-#cat img {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
 @media (max-width: 767px) {
   #cat {
     width: 350px;
-    height: 112.5px;
+    height: 262.4px;
   }
+}
+
+#cat img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 #zatemnenie:target {
